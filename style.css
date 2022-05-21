@@ -568,8 +568,7 @@ a {
     }
 
     .head-con {
-
-        margin: 0.5rem auto;
+        margin: 0.5rem auto 0;
         grid-template-columns: 1fr;
     }
 
@@ -582,7 +581,12 @@ a {
         width: 11rem;
     }
 
+    .sec-con {
+        margin: 0 auto;
+    }
+
     .section1 {
+        padding-top: 3rem;
         margin: 1rem auto 0;
     }
 
@@ -610,6 +614,7 @@ a {
     .section3-con {
         display: grid;
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
 
     .inputemail {
@@ -647,6 +652,7 @@ a {
     }
 
     .footerend {
+        padding: 1rem;
         max-width: 19rem;
         margin: unset;
         flex-direction: column;
